@@ -20,7 +20,7 @@ const SchedulerService = require('./services/schedulerService');
 
 const app = express();
 
-// 💥 FIX 1 — PROPER TRUST PROXY
+
 app.set("trust proxy", 1);
 
 // Middleware
