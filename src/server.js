@@ -28,8 +28,10 @@ app.use(helmet());
 
 const allowedOrigins = [
   "http://localhost:3000",
-  "https://xeno-frontend-phi.vercel.app"
+  "https://xeno-frontend-phi.vercel.app",
+  "https://xeno-backend-8pfp.onrender.com"
 ];
+
 
 app.use(
   cors({
